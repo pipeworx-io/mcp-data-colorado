@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/data-colorado",
   "title": "Data Colorado",
-  "description": "Colorado Information Marketplace — US government open data (data.colorado.gov) via the Socrata SoQL API: business entities, state government, health & demographics. Keyless.",
-  "version": "0.1.0",
+  "description": "Colorado Information Marketplace — US government open data (data.colorado.gov) via the Socrata…",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/data-colorado",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-data-colorado",

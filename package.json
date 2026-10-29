@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-data-colorado",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Colorado Information Marketplace — US government open data (data.colorado.gov) via the Socrata SoQL API: business entities, state government, health & demographics. Keyless.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-data-colorado": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-colorado"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-data-colorado.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/data-colorado",
   "pipeworx": {
-    "sourceHash": "v1-285c4803600b5acb241a7c51fb1da78ad888d847b97c910177e4b41cb7f77ec1",
-    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
+    "mode": "gateway",
+    "slug": "data-colorado",
+    "gatewaySlug": "data-colorado",
+    "sourceHash": "v1-ac24915eae614e0c3e4616a1d38870c2fb248ee5567888f8f5975ec25f65b017",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-colorado",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Colorado Information Marketplace — US government open data (data.colorado.gov) via the Socrata SoQL API: business entities, state government, health & demographics. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "data-colorado",
     "gatewaySlug": "data-colorado",
-    "sourceHash": "v1-ac24915eae614e0c3e4616a1d38870c2fb248ee5567888f8f5975ec25f65b017",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-e2a7accb4261a5f7ddd98c96738b9e60880df0dc243a00bf1b81090c70ed373e",
+    "sourceCommit": "5ce1a05186d46479e23865c66bdb8579d8de445e"
   }
 }
